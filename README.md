@@ -40,7 +40,7 @@ You'll also need to have a Redis Stack instance running.  Either [install it loc
 
 - Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
 - Start up the Docker daemon.  
-- Run ```docker-compose up -d``` in the project directory.  This command will give you Redis Stack on localhost port 6379 with no password required.  The container will persist Redis data to the ```redisdata``` folder.
+- Run ```docker compose up -d``` in the project directory.  This command will give you Redis Stack on localhost port 6379 with no password required.  The container will persist Redis data to the ```redisdata``` folder.
 
 You should see the following once the command has successfully run:
 
@@ -54,7 +54,7 @@ You'll also see the ```redis_ru102js``` container running if you open up the Doc
 If you want to shut down the Redis Stack container, use:
 
 ```
-docker-compose down
+docker compose down
 ```
 
 # Configuration
