@@ -14,7 +14,7 @@ In order to start and run this application, you will need:
 
 - [Node.js](https://nodejs.org/en/download/) (We recommend using the current Long Term Stable version and have tested with version 18.4.2).
 - npm (installed with Node.js).
-- Access to a local or remote installation of [Redis Stack](https://redis.io/docs/stack/get-started/install/) - local preferred, we provide a Docker Compose file in this repo, read on for details.
+- Access to a local or remote installation of [Redis Stack](https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/) - local preferred, we provide a Docker Compose file in this repo, read on for details.
 
 If you're using Windows, check out the following resources for help with running Redis:
 
@@ -36,7 +36,7 @@ Now install the dependencies:
 $ npm install
 ```
 
-You'll also need to have a Redis Stack instance running.  Either [install it locally](https://redis.io/docs/stack/get-started/install/), or use the Docker Compose file provided:
+You'll also need to have a Redis Stack instance running.  Either [install it locally](https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/), or use the Docker Compose file provided:
 
 - Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
 - Start up the Docker daemon.  
@@ -150,7 +150,7 @@ npm testdev
 
 RedisInsight is a graphical tool for viewing data in Redis and managing Redis server instances.  You don't need to install it to be successful with this course, but we recommend it as a good way of viewing data stored in Redis.
 
-To use RedisInsight, you'll need to [download it](https://redis.io/docs/ui/insight/) then point it at your Redis instance.  Check out the [RedisInsight documentation](https://redis.io/docs/ui/insight/) for help.
+To use RedisInsight, you'll need to [download it](https://redis.io/docs/latest/operate/redisinsight/install/) then point it at your Redis instance.  Check out the [RedisInsight documentation](https://redis.io/docs/latest/develop/tools/insight/) for help.
 
 If you're using the Docker Compose file provided with this course to run Redis Stack, you can optionally choose to access a web-based version of Redis Stack at `http://localhost:8001` whenever the container is running.
 
